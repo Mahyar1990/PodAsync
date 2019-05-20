@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodAsync'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PodAsync.'
+  s.version          = '0.4.8'
+  s.summary          = 'Fanap Pod Async SDK to connect to Dirana'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "This is a framework for projects that wants to have cominucation with Fanap Dirana Server through webSocket"
 
   s.homepage         = 'https://github.com/Mahyar1990/PodAsync'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -37,6 +35,8 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
+  s.dependency 'Starscream'
+  s.dependency 'SwiftyJSON'
+
 end

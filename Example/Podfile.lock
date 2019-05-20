@@ -1,0 +1,16 @@
+PODS:
+  - PodAsync (0.1.0)
+
+DEPENDENCIES:
+  - PodAsync (from `../`)
+
+EXTERNAL SOURCES:
+  PodAsync:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodAsync: 46837069247bad61410fadf24982d9b55d56606d
+
+PODFILE CHECKSUM: 3e1d355829f5c8e77b343e9538cda7f74bb297b1
+
+COCOAPODS: 1.6.2
